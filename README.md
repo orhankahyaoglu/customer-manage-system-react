@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Customer Management System (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[English](#english) | [Turkish](#turkish)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<a name="english"></a>
+## 🇬🇧 English
 
-### `npm start`
+This project is a dynamic customer management dashboard developed using **React**. It features a clean UI and allows users to manage a customer list in real-time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🚀 Features
+* **Dynamic Customer Addition:** Add new customers instantly to the list.
+* **Automatic Avatar Generation:** Each customer gets a unique profile picture via the `pravatar.cc` API.
+* **Customer Deletion:** Remove customers from the list with a single click.
+* **Responsive Design:** Optimized for a seamless experience across all screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛠️ Technologies Used
+* **React.js** (Functional Components, Hooks)
+* **CSS3** (Flexbox & Grid)
+* **Bootstrap Icons**
+* **JavaScript** (ES6+)
 
-### `npm test`
+### 📦 Installation
+To run this project locally:
+1. Clone the repository: `git clone <your-repo-link>`
+2. Navigate to the folder: `cd customer-manage-system-react`
+3. Install dependencies: `npm install`
+4. Start the app: `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1919" height="1018" alt="Ekran görüntüsü 2026-04-30 211926" src="https://github.com/user-attachments/assets/5173fba3-aad5-4916-aa74-cc77aa843609" />
 
-### `npm run build`
+<img width="1913" height="1010" alt="Ekran görüntüsü 2026-04-30 212118" src="https://github.com/user-attachments/assets/84a7b839-6db4-4dc3-8144-a7a64020a159" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1912" height="1010" alt="Ekran görüntüsü 2026-04-30 212152" src="https://github.com/user-attachments/assets/da9168bf-89ec-47cc-8e2f-8878bb98b092" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a name="turkish"></a>
+## 🇹🇷 Türkçe
 
-### `npm run eject`
+Bu proje, **React** kullanılarak geliştirilmiş dinamik bir müşteri yönetim panelidir. Modern bir arayüz ile müşteri listesini anlık olarak yönetmenize olanak tanır.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🚀 Özellikler
+* **Dinamik Müşteri Ekleme:** Yeni müşterileri anlık olarak listeye ekleme.
+* **Otomatik Avatar Oluşturma:** Her müşteri için `pravatar.cc` API aracılığıyla benzersiz profil resimleri.
+* **Müşteri Silme:** Listeden istenilen kullanıcıyı tek tıkla kaldırma.
+* **Duyarlı (Responsive) Tasarım:** Tüm ekran boyutlarında sorunsuz çalışan modern arayüz.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🛠️ Kullanılan Teknolojiler
+* **React.js** (Functional Components, Hooks)
+* **CSS3** (Flexbox & Responsive Design)
+* **Bootstrap Icons**
+* **JavaScript** (ES6+)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📦 Kurulum
+Projeyi yerel bilgisayarınızda çalıştırmak için:
+1. Depoyu klonlayın: `git clone <repo-linki>`
+2. Proje klasörüne gidin: `cd customer-manage-system-react`
+3. Bağımlılıkları yükleyin: `npm install`
+4. Uygulamayı başlatın: `npm start`
