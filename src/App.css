@@ -1,0 +1,29 @@
+/* Ekranın tamamını kaplayan gradyan arka plan */
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Yatayda tam orta */
+  align-items: center;     /* Dikeyde tam orta */
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  padding: 20px;
+}
+
+/* İşte o aradığın beyaz kutu */
+.main-container {
+  background-color: white;
+  width: 100%;
+  max-width: 450px; /* Kutunun genişliğini sabitler, elemanlar yan yana kaçamaz */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; /* İçindeki her şeyi alt alta dizer */
+  gap: 20px;
+}
+
+.main-container h1 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}

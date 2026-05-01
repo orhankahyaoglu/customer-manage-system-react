@@ -1,0 +1,54 @@
+.customer-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.customer-form input {
+  flex: 1;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.customer-form button {
+  background-color: #48bb78;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.customer-form button:hover {
+  background-color: #38a169;
+  transform: translateY(-2px);
+}
+
+/* Videodaki boş bırakma hatası için kırmızı çerçeve */
+.customer-form input.error {
+  border: 2px solid #f56565;
+  background-color: #fff5f5;
+}
+
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #1a8917;
+    color: white;
+    width: 40px; /* Butonun kare görünmesi için opsiyonel */
+    height: 40px;
+}

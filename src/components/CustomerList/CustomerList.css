@@ -1,0 +1,9 @@
+.customer-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

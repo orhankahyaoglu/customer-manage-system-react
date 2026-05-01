@@ -1,0 +1,54 @@
+.customer-item {
+  background-color: white;
+  color: #333;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.customer-item:hover {
+  transform: scale(1.02);
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.customer-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e2e8f0;
+}
+
+.customer-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.delete-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #ff4d4d;
+    color: white;
+    width: 32px; /* Boyutu ihtiyacına göre ayarlayabilirsin */
+    height: 32px;
+}
+
+.delete-button:hover {
+  background-color: #f56565;
+  color: white;
+}
